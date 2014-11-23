@@ -57,6 +57,7 @@ The complete list of variables of each feature vector is available in 'features.
 
 * Orgiginal data set was downloaded from this link:https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 * From that data set the following files were copied to a common locaton ./data. These files were y_train.txt, x_train.txt, y_test.txt, x_test.txt subject_train.txt, subject_test.text, features.txt, activity_labels.txt
+* The train and test data sets were combined into one common data set and the measurements for mean and standard deviation were abstracted into an independant data set.
 * The file run_analysis.R descibes the steps taken to change the data to a tidy data set with the following column names.
 
 Varables
