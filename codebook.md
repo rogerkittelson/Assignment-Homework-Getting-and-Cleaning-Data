@@ -58,85 +58,87 @@ The complete list of variables of each feature vector is available in 'features.
 * Orgiginal data set was downloaded from this link:https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 * From that data set the following files were copied to a common locaton ./data. These files were y_train.txt, x_train.txt, y_test.txt, x_test.txt subject_train.txt, subject_test.text, features.txt, activity_labels.txt
 * The file run_analysis.R descibes the steps taken to change the data to a tidy data set with the following column names.
-Subject
-Activity
-ActivityId
-TimeDomain.BodyAcceleration-mean-X
-TimeDomain.BodyAcceleration-mean-Y
-TimeDomain.BodyAcceleration-mean-Z
-TimeDomain.BodyAcceleration-std-X
-TimeDomain.BodyAcceleration-std-Y
-TimeDomain.BodyAcceleration-std-Z
-TimeDomain.GravityAcceleration-mean-X
-TimeDomain.GravityAcceleration-mean-Y
-TimeDomain.GravityAcceleration-mean-Z
-TimeDomain.GravityAcceleration-std-X
-TimeDomain.GravityAcceleration-std-Y
-TimeDomain.GravityAcceleration-std-Z
-TimeDomain.BodyAccelerationJerk-mean-X
-TimeDomain.BodyAccelerationJerk-mean-Y
-TimeDomain.BodyAccelerationJerk-mean-Z
-TimeDomain.BodyAccelerationJerk-std-X
-TimeDomain.BodyAccelerationJerk-std-Y
-TimeDomain.BodyAccelerationJerk-std-Z
-TimeDomain.BodyGyro-mean-X
-TimeDomain.BodyGyro-mean-Y
-TimeDomain.BodyGyro-mean-Z
-TimeDomain.BodyGyro-std-X
-TimeDomain.BodyGyro-std-Y
-TimeDomain.BodyGyro-std-Z
-TimeDomain.BodyGyroJerk-mean-X
-TimeDomain.BodyGyroJerk-mean-Y
-TimeDomain.BodyGyroJerk-mean-Z
-TimeDomain.BodyGyroJerk-std-X
-TimeDomain.BodyGyroJerk-std-Y
-TimeDomain.BodyGyroJerk-std-Z
-TimeDomain.BodyAccelerationMagnitude-mean
-TimeDomain.BodyAccelerationMagnitude-std
-TimeDomain.GravityAccelerationMagnitude-mean
-TimeDomain.GravityAccelerationMagnitude-std
-TimeDomain.BodyAccelerationJerkMagnitude-mean
-TimeDomain.BodyAccelerationJerkMagnitude-std
-TimeDomain.BodyGyroMagnitude-mean
-TimeDomain.BodyGyroMagnitude-std
-TimeDomain.BodyGyroJerkMagnitude-mean
-TimeDomain.BodyGyroJerkMagnitude-std
-FrequencyDomain.BodyAcceleration-mean-X
-FrequencyDomain.BodyAcceleration-mean-Y
-FrequencyDomain.BodyAcceleration-mean-Z
-FrequencyDomain.BodyAcceleration-std-X
-FrequencyDomain.BodyAcceleration-std-Y
-FrequencyDomain.BodyAcceleration-std-Z
-FrequencyDomain.BodyAcceleration-meanFreq-X
-FrequencyDomain.BodyAcceleration-meanFreq-Y
-FrequencyDomain.BodyAcceleration-meanFreq-Z
-FrequencyDomain.BodyAccelerationJerk-mean-X
-FrequencyDomain.BodyAccelerationJerk-mean-Y
-FrequencyDomain.BodyAccelerationJerk-mean-Z
-FrequencyDomain.BodyAccelerationJerk-std-X
-FrequencyDomain.BodyAccelerationJerk-std-Y
-FrequencyDomain.BodyAccelerationJerk-std-Z
-FrequencyDomain.BodyAccelerationJerk-meanFreq-X
-FrequencyDomain.BodyAccelerationJerk-meanFreq-Y
-FrequencyDomain.BodyAccelerationJerk-meanFreq-Z
-FrequencyDomain.BodyGyro-mean-X
-FrequencyDomain.BodyGyro-mean-Y
-FrequencyDomain.BodyGyro-mean-Z
-FrequencyDomain.BodyGyro-std-X
-FrequencyDomain.BodyGyro-std-Y
-FrequencyDomain.BodyGyro-std-Z
-FrequencyDomain.BodyGyro-meanFreq-X
-FrequencyDomain.BodyGyro-meanFreq-Y
-FrequencyDomain.BodyGyro-meanFreq-Z
-FrequencyDomain.BodyAccelerationMagnitude-mean
-FrequencyDomain.BodyAccelerationMagnitude-std
-FrequencyDomain.BodyAccelerationMagnitude-meanFreq
-FrequencyDomain.BodyBodyAccelerationJerkMagnitude-mean
-FrequencyDomain.BodyBodyAccelerationJerkMagnitude-std
-FrequencyDomain.BodyBodyAccelerationJerkMagnitude-meanFreq
-FrequencyDomain.BodyBodyGyroMagnitude-mean
-FrequencyDomain.BodyBodyGyroMagnitude-std
-FrequencyDomain.BodyBodyGyroMagnitude-meanFreq
-FrequencyDomain.BodyBodyGyroJerkMagnitude-mean
-FrequencyDomain.BodyBodyGyroJerkMagnitude-std
-FrequencyDomain.BodyBodyGyroJerkMagnitude-meanFreq
+
+Varables
+* Subject
+* Activity
+* ActivityId
+* TimeDomain.BodyAcceleration-mean-X
+* TimeDomain.BodyAcceleration-mean-Y
+* TimeDomain.BodyAcceleration-mean-Z
+* TimeDomain.BodyAcceleration-std-X
+* TimeDomain.BodyAcceleration-std-Y
+* TimeDomain.BodyAcceleration-std-Z
+* TimeDomain.GravityAcceleration-mean-X
+* TimeDomain.GravityAcceleration-mean-Y
+* TimeDomain.GravityAcceleration-mean-Z
+* TimeDomain.GravityAcceleration-std-X
+* TimeDomain.GravityAcceleration-std-Y
+* TimeDomain.GravityAcceleration-std-Z
+* TimeDomain.BodyAccelerationJerk-mean-X
+* TimeDomain.BodyAccelerationJerk-mean-Y
+* TimeDomain.BodyAccelerationJerk-mean-Z
+* TimeDomain.BodyAccelerationJerk-std-X
+* TimeDomain.BodyAccelerationJerk-std-Y
+* TimeDomain.BodyAccelerationJerk-std-Z
+* TimeDomain.BodyGyro-mean-X
+* TimeDomain.BodyGyro-mean-Y
+* TimeDomain.BodyGyro-mean-Z
+* TimeDomain.BodyGyro-std-X
+* TimeDomain.BodyGyro-std-Y
+* TimeDomain.BodyGyro-std-Z
+* TimeDomain.BodyGyroJerk-mean-X
+* TimeDomain.BodyGyroJerk-mean-Y
+* TimeDomain.BodyGyroJerk-mean-Z
+* TimeDomain.BodyGyroJerk-std-X
+* TimeDomain.BodyGyroJerk-std-Y
+* TimeDomain.BodyGyroJerk-std-Z
+* TimeDomain.BodyAccelerationMagnitude-mean
+* TimeDomain.BodyAccelerationMagnitude-std
+* TimeDomain.GravityAccelerationMagnitude-mean
+* TimeDomain.GravityAccelerationMagnitude-std
+* TimeDomain.BodyAccelerationJerkMagnitude-mean
+* TimeDomain.BodyAccelerationJerkMagnitude-std
+* TimeDomain.BodyGyroMagnitude-mean
+* TimeDomain.BodyGyroMagnitude-std
+* TimeDomain.BodyGyroJerkMagnitude-mean
+* TimeDomain.BodyGyroJerkMagnitude-std
+* FrequencyDomain.BodyAcceleration-mean-X
+* FrequencyDomain.BodyAcceleration-mean-Y
+* FrequencyDomain.BodyAcceleration-mean-Z
+* FrequencyDomain.BodyAcceleration-std-X
+* FrequencyDomain.BodyAcceleration-std-Y
+* FrequencyDomain.BodyAcceleration-std-Z
+* FrequencyDomain.BodyAcceleration-meanFreq-X
+* FrequencyDomain.BodyAcceleration-meanFreq-Y
+* FrequencyDomain.BodyAcceleration-meanFreq-Z
+* FrequencyDomain.BodyAccelerationJerk-mean-X
+* FrequencyDomain.BodyAccelerationJerk-mean-Y
+* FrequencyDomain.BodyAccelerationJerk-mean-Z
+* FrequencyDomain.BodyAccelerationJerk-std-X
+* FrequencyDomain.BodyAccelerationJerk-std-Y
+* FrequencyDomain.BodyAccelerationJerk-std-Z
+* FrequencyDomain.BodyAccelerationJerk-meanFreq-X
+* FrequencyDomain.BodyAccelerationJerk-meanFreq-Y
+* FrequencyDomain.BodyAccelerationJerk-meanFreq-Z
+* FrequencyDomain.BodyGyro-mean-X
+* FrequencyDomain.BodyGyro-mean-Y
+* FrequencyDomain.BodyGyro-mean-Z
+* FrequencyDomain.BodyGyro-std-X
+* FrequencyDomain.BodyGyro-std-Y
+* FrequencyDomain.BodyGyro-std-Z
+* FrequencyDomain.BodyGyro-meanFreq-X
+* FrequencyDomain.BodyGyro-meanFreq-Y
+* FrequencyDomain.BodyGyro-meanFreq-Z
+* FrequencyDomain.BodyAccelerationMagnitude-mean
+* FrequencyDomain.BodyAccelerationMagnitude-std
+* FrequencyDomain.BodyAccelerationMagnitude-meanFreq
+* FrequencyDomain.BodyBodyAccelerationJerkMagnitude-mean
+* FrequencyDomain.BodyBodyAccelerationJerkMagnitude-std
+* FrequencyDomain.BodyBodyAccelerationJerkMagnitude-meanFreq
+* FrequencyDomain.BodyBodyGyroMagnitude-mean
+* FrequencyDomain.BodyBodyGyroMagnitude-std
+* FrequencyDomain.BodyBodyGyroMagnitude-meanFreq
+* FrequencyDomain.BodyBodyGyroJerkMagnitude-mean
+* FrequencyDomain.BodyBodyGyroJerkMagnitude-std
+* FrequencyDomain.BodyBodyGyroJerkMagnitude-meanFreq
