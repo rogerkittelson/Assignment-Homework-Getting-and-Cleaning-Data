@@ -20,4 +20,4 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
     From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-The code is run by downloading the script and unzipping and copying the files described in the code book to a directory data in your working directory.
+The code is run by downloading the script and unzipping and copying the files described in the code book to a directory data in your working directory. The raw data files have been uploaded here in the data directory.
